@@ -9,3 +9,5 @@ console.log(str3);// HelloTypeScript
 // 支持ES6的模板字符串来拼接变量和字符串
 str3 = `你好 ${str2}`;
 console.log(str3);// 你好 TypeScript
+
+export {}

@@ -6,3 +6,5 @@ num = 45.6;
 let binaryNum:number = 0b1111;
 let octalNum:number = 0o123;
 let hexNum:number = 0x123;
+
+export {}

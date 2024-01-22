@@ -36,4 +36,5 @@ function delayExecFn(fn: ExecFnType) {
 delayExecFn((name, age) => {
   console.log(name, age)
 })
+
 export {}

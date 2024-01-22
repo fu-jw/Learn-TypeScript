@@ -28,3 +28,5 @@ const myInfos = parseInfo("fdafdafdafa")
 for (const item of myInfos) {
   console.log(item.name, item.age)
 }
+
+export {}

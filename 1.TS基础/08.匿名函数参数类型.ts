@@ -6,3 +6,5 @@ let names: string[] = ["aaa", "bbb", "ccc"]
 names.forEach(function(item) {
   console.log(item)
 })
+
+export {}

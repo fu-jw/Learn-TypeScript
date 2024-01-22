@@ -11,3 +11,5 @@ id = { name: "fjw", level: 99 }
 
 // 定义数组
 const infos: any[] = ["abc", 123, {}, []]
+
+export {}

@@ -28,3 +28,5 @@ const info: InfoType = {
     console.log("coding")
   }
 }
+
+export {}

@@ -22,3 +22,5 @@ function printID(id: number | string) {
 
 printID("abc")
 printID(123)
+
+export {}

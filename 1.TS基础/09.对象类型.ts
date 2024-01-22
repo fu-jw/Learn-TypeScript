@@ -24,3 +24,5 @@ function printCoordinate(point: PointType) {
 
 // printCoordinate(123)
 printCoordinate({ x: 20, y: 30 })
+
+export {}

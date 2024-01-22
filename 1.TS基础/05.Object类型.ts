@@ -40,3 +40,5 @@ let info3:Object = {
 }
 
 // console.log(info3.name) // 报错: Property 'name' does not exist on type 'Object'.
+
+export {}

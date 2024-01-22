@@ -25,7 +25,7 @@ const info = {
 // 下面的做法是错误: info.method获取的是string类型
 // request(info.url, info.method)
 
-// 解决方案一: info.method进行类型断言
+// 解决方案一: info.method 进行类型断言
 request(info.url, info.method as "post")
 
 // 解决方案二: 直接让info对象类型是一个字面量类型
@@ -38,7 +38,7 @@ const info3 = {
   url: "xxxx",
   method: "post"
 } as const
-// xxx 本身就是一个string
+// xxx 本身就是一个 string
 // 可以info2或info3的method属性直接赋值给MethodType类型
 request(info2.url, info3.method)
 

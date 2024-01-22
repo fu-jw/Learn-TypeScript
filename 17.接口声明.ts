@@ -2,7 +2,7 @@ const name = "fredo"
 
 console.log("fredo")
 console.log(name)
-
+// type定义类型别名
 type PointType = {
   x: number
   y: number
@@ -20,6 +20,5 @@ interface PointType2 {
 function printCoordinate(point: PointType2) {
   
 }
-
 
 export {}

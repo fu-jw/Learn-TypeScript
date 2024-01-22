@@ -44,8 +44,8 @@ interface IKun extends IPerson {
 
 const ikun1: IKun = {
   kouhao: "你干嘛, 哎呦",
-  name: "kobe",
-  age: 30
+  name: "小黑子",
+  age: 20
 }
 
 // 4.interface可以被类实现(TS面向对象时候再讲)
